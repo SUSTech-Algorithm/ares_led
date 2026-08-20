@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rgb_camera_receiver</name>
+  <version>0.1.0</version>
+  <description>Protocol-independent five-color LED strip vision for R2.</description>
+  <maintainer email="robocon@example.com">robocon</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>rgb_comm_protocol</depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

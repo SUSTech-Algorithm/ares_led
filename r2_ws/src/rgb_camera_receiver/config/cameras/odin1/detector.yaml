@@ -1,0 +1,4 @@
+# Odin1 detector 占位文件。
+# 采集并标注 camera_data/odin1 后，才能把 calibrated 改为 true 并写入 Odin1 专用参数。
+calibrated: false
+colors: {}

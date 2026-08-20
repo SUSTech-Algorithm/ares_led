@@ -1,0 +1,19 @@
+rgb_led_sender:
+  ros__parameters:
+    input_topic: /aruco_comm/tx_id
+    transport: serial
+    # USB CDC/WLED JSON 串口设备。除非自动选择了错误端口，否则使用 "auto"。
+    serial_device: auto
+    serial_baudrate: 115200
+    # 正常控制 WLED 时保持为 0.0。查询或详细回复可能占满串口缓冲区，
+    # 导致后续写入不可靠。
+    serial_timeout_sec: 0.0
+    # 发送端使用的两个逻辑协议段索引。
+    groups: [0, 1]
+    # WLED 所管理的 WS2811 可寻址分段（像素）数量。
+    pixel_count: 11
+    # WLED 全局亮度，范围为 0..255。
+    brightness: 6.0
+    retry_period_sec: 0.5
+    # R1 物理输出的 RGB 配置，与 R2 摄像头观测值无关。
+    colors_config: ""

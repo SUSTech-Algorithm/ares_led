@@ -1,0 +1,37 @@
+rgb_camera_receiver:
+  ros__parameters:
+    # 当前 USB RGB 摄像头 profile。颜色模型和几何参数见同目录 detector.yaml。
+    camera_profile: usb_rgb
+    # 可覆盖为外部校准文件；留空时使用本 profile 自带的 detector.yaml。
+    # detector_config: /绝对路径/detector.yaml
+
+    # auto 会跳过笔记本内置摄像头，并选择首个可读取的外部视频流。
+    camera_device: auto
+    camera_reject_keywords: Integrated,Chicony
+    frame_width: 1280
+    frame_height: 720
+    scan_rate_hz: 30.0
+
+    # 默认为空，因为部分 USB 摄像头不提供 V4L2 控制项。
+    # 支持时格式为：auto_exposure=1,exposure_time_absolute=100,gain=0
+    v4l2_controls: ""
+
+    show_preview: true
+    preview_scale: 0.5
+    # 与 detector.yaml 的离线验收缩放比例保持一致。
+    processing_scale: 0.4
+
+    # 检测器选出阳性结果时保存摄像头原始画面。连续阳性期间立即保存第一帧，
+    # 后续画面最多每秒保存一张。
+    save_positive_images: true
+    positive_capture_dir: ~/Desktop/LED/camera_capture_positive
+    positive_save_interval_sec: 1.0
+
+    # 发布前通过多帧确认解码出的两段协议命令。在 30 Hz 下，7 帧取 5 帧
+    # 既能快速响应，也能排除大部分单帧错误。
+    protocol_config: ""
+    output_topic: /aruco_comm/rx_id
+    confirmation_window: 7
+    confirmation_required: 5
+    protocol_winner_margin: 1.20
+    off_unlock_sec: 0.35

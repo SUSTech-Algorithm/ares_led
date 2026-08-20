@@ -1,0 +1,10 @@
+commands:
+  0: [RED, GREEN]
+  1: [RED, BLUE]
+  2: [RED, CYAN]
+  3: [RED, PURPLE]
+  4: [GREEN, BLUE]
+  5: [GREEN, CYAN]
+  6: [GREEN, PURPLE]
+  7: [BLUE, CYAN]
+  8: [BLUE, PURPLE]

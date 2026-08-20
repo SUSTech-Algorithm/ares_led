@@ -1,0 +1,2473 @@
+{
+  "dataset": "/home/lyx/Desktop/LED/camera_data/usb_rgb",
+  "config": "/home/lyx/Desktop/LED/r2_ws/src/rgb_camera_receiver/config/cameras/usb_rgb/detector.yaml",
+  "processing_scale": 0.67,
+  "images": 68,
+  "class_counts": {
+    "BLUE": 15,
+    "CYAN": 15,
+    "GREEN": 12,
+    "PURPLE": 13,
+    "RED": 13,
+    "NONE": 0
+  },
+  "passed": 65,
+  "failed": 3,
+  "min_true_score": 0.3987066968215654,
+  "max_false_score": 0.0,
+  "score_separation": Infinity,
+  "required_score_separation": 3.0,
+  "separation_passed": true,
+  "none_validation": "not_accepted_no_negative_samples",
+  "median_processing_ms": 61.61733499902766,
+  "p95_processing_ms": 119.04128600144759,
+  "processing_target_p95_ms": 50.0,
+  "processing_required_p95_ms": 60.0,
+  "processing_required_passed": false,
+  "results": [
+    {
+      "image": "BLUE/blue_001.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 81.515,
+      "winner_margin": Infinity,
+      "winner_score": 0.642805,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.642805
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.876058,
+          "score": 0.642805,
+          "dots": 7,
+          "length": 142.779,
+          "residual": 0.481,
+          "spacing_cv": 0.061943,
+          "metrics": {
+            "line": 0.991555,
+            "dots": 0.844688,
+            "periodic": 0.991036,
+            "color": 0.77442,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_002.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 93.971,
+      "winner_margin": Infinity,
+      "winner_score": 0.7237,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.7237
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.916272,
+          "score": 0.7237,
+          "dots": 6,
+          "length": 122.037,
+          "residual": 0.501,
+          "spacing_cv": 0.056919,
+          "metrics": {
+            "line": 0.990856,
+            "dots": 0.86996,
+            "periodic": 0.992855,
+            "color": 0.845596,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_003.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 83.482,
+      "winner_margin": Infinity,
+      "winner_score": 0.778054,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.778054
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.956793,
+          "score": 0.778054,
+          "dots": 7,
+          "length": 258.265,
+          "residual": 0.59,
+          "spacing_cv": 0.048073,
+          "metrics": {
+            "line": 0.987313,
+            "dots": 0.860832,
+            "periodic": 0.996418,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_004.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 77.257,
+      "winner_margin": Infinity,
+      "winner_score": 0.699812,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.699812
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.950668,
+          "score": 0.699812,
+          "dots": 7,
+          "length": 373.003,
+          "residual": 0.866,
+          "spacing_cv": 0.085835,
+          "metrics": {
+            "line": 0.972919,
+            "dots": 0.795878,
+            "periodic": 0.994286,
+            "color": 0.908965,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_005.jpg",
+      "expected": "BLUE",
+      "actual": "NONE",
+      "passed": false,
+      "candidate_count": 0,
+      "proposal_count": 0,
+      "processing_ms": 42.707,
+      "winner_margin": Infinity,
+      "winner_score": null,
+      "candidate_scores": [],
+      "proposals": []
+    },
+    {
+      "image": "BLUE/blue_006.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 98.316,
+      "winner_margin": Infinity,
+      "winner_score": 0.774339,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.774339
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.955903,
+          "score": 0.774339,
+          "dots": 7,
+          "length": 270.055,
+          "residual": 0.494,
+          "spacing_cv": 0.070828,
+          "metrics": {
+            "line": 0.99108,
+            "dots": 0.855056,
+            "periodic": 0.994565,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_007.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 108.906,
+      "winner_margin": Infinity,
+      "winner_score": 0.803249,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.803249
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.95772,
+          "score": 0.803249,
+          "dots": 7,
+          "length": 202.062,
+          "residual": 0.522,
+          "spacing_cv": 0.036221,
+          "metrics": {
+            "line": 0.990064,
+            "dots": 0.884525,
+            "periodic": 0.998348,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_008.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 132.887,
+      "winner_margin": Infinity,
+      "winner_score": 0.755755,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.755755
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.935233,
+          "score": 0.755755,
+          "dots": 7,
+          "length": 179.812,
+          "residual": 0.679,
+          "spacing_cv": 0.022639,
+          "metrics": {
+            "line": 0.983233,
+            "dots": 0.87879,
+            "periodic": 0.996201,
+            "color": 0.877995,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_009.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 96.592,
+      "winner_margin": Infinity,
+      "winner_score": 0.780833,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.780833
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.940275,
+          "score": 0.780833,
+          "dots": 7,
+          "length": 206.651,
+          "residual": 0.53,
+          "spacing_cv": 0.025421,
+          "metrics": {
+            "line": 0.989748,
+            "dots": 0.892326,
+            "periodic": 0.996419,
+            "color": 0.887295,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_010.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 133.152,
+      "winner_margin": Infinity,
+      "winner_score": 0.720716,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.720716
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.925424,
+          "score": 0.720716,
+          "dots": 6,
+          "length": 142.195,
+          "residual": 0.404,
+          "spacing_cv": 0.105511,
+          "metrics": {
+            "line": 0.994043,
+            "dots": 0.846599,
+            "periodic": 0.998373,
+            "color": 0.857804,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_011.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 86.481,
+      "winner_margin": Infinity,
+      "winner_score": 0.714526,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.714526
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.910838,
+          "score": 0.714526,
+          "dots": 7,
+          "length": 157.325,
+          "residual": 0.524,
+          "spacing_cv": 0.100201,
+          "metrics": {
+            "line": 0.989993,
+            "dots": 0.869967,
+            "periodic": 0.991519,
+            "color": 0.836723,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_012.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 102.172,
+      "winner_margin": Infinity,
+      "winner_score": 0.686619,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.686619
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.90622,
+          "score": 0.686619,
+          "dots": 6,
+          "length": 139.87,
+          "residual": 0.383,
+          "spacing_cv": 0.077116,
+          "metrics": {
+            "line": 0.994635,
+            "dots": 0.840592,
+            "periodic": 0.996746,
+            "color": 0.823915,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_013.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 75.319,
+      "winner_margin": Infinity,
+      "winner_score": 0.594569,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.594569
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.86458,
+          "score": 0.594569,
+          "dots": 7,
+          "length": 128.139,
+          "residual": 0.711,
+          "spacing_cv": 0.042804,
+          "metrics": {
+            "line": 0.981649,
+            "dots": 0.81028,
+            "periodic": 0.993954,
+            "color": 0.752046,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_014.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 72.923,
+      "winner_margin": Infinity,
+      "winner_score": 0.646288,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.646288
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.889226,
+          "score": 0.646288,
+          "dots": 7,
+          "length": 125.314,
+          "residual": 0.666,
+          "spacing_cv": 0.032243,
+          "metrics": {
+            "line": 0.983854,
+            "dots": 0.830752,
+            "periodic": 0.993163,
+            "color": 0.796166,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "BLUE/blue_015.jpg",
+      "expected": "BLUE",
+      "actual": "BLUE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 71.6,
+      "winner_margin": Infinity,
+      "winner_score": 0.620424,
+      "candidate_scores": [
+        {
+          "color": "BLUE",
+          "score": 0.620424
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "BLUE",
+          "confidence": 0.882194,
+          "score": 0.620424,
+          "dots": 9,
+          "length": 167.052,
+          "residual": 0.828,
+          "spacing_cv": 0.039318,
+          "metrics": {
+            "line": 0.975219,
+            "dots": 0.817444,
+            "periodic": 0.992608,
+            "color": 0.784063,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_001.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 70.303,
+      "winner_margin": Infinity,
+      "winner_score": 0.807217,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.807217
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.957508,
+          "score": 0.807217,
+          "dots": 8,
+          "length": 201.738,
+          "residual": 0.538,
+          "spacing_cv": 0.0181,
+          "metrics": {
+            "line": 0.989447,
+            "dots": 0.889841,
+            "periodic": 0.997907,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_002.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 124.501,
+      "winner_margin": Infinity,
+      "winner_score": 0.815827,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.815827
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.960271,
+          "score": 0.815827,
+          "dots": 8,
+          "length": 294.403,
+          "residual": 0.641,
+          "spacing_cv": 0.027072,
+          "metrics": {
+            "line": 0.985034,
+            "dots": 0.898171,
+            "periodic": 0.999575,
+            "color": 0.922512,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_003.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 119.041,
+      "winner_margin": Infinity,
+      "winner_score": 0.657832,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.657832
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.93654,
+          "score": 0.657832,
+          "dots": 7,
+          "length": 369.254,
+          "residual": 0.958,
+          "spacing_cv": 0.081942,
+          "metrics": {
+            "line": 0.96691,
+            "dots": 0.775669,
+            "periodic": 0.999238,
+            "color": 0.877777,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_004.jpg",
+      "expected": "CYAN",
+      "actual": "NONE",
+      "passed": false,
+      "candidate_count": 0,
+      "proposal_count": 0,
+      "processing_ms": 52.011,
+      "winner_margin": Infinity,
+      "winner_score": null,
+      "candidate_scores": [],
+      "proposals": []
+    },
+    {
+      "image": "CYAN/cyan_005.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 78.397,
+      "winner_margin": Infinity,
+      "winner_score": 0.398707,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.398707
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.961987,
+          "score": 0.398707,
+          "dots": 6,
+          "length": 271.482,
+          "residual": 1.561,
+          "spacing_cv": 0.02598,
+          "metrics": {
+            "line": 0.914557,
+            "dots": 0.471091,
+            "periodic": 0.99907,
+            "color": 0.92628,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_006.jpg",
+      "expected": "CYAN",
+      "actual": "NONE",
+      "passed": false,
+      "candidate_count": 0,
+      "proposal_count": 0,
+      "processing_ms": 49.039,
+      "winner_margin": Infinity,
+      "winner_score": null,
+      "candidate_scores": [],
+      "proposals": []
+    },
+    {
+      "image": "CYAN/cyan_007.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 113.856,
+      "winner_margin": Infinity,
+      "winner_score": 0.807387,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.807387
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.958116,
+          "score": 0.807387,
+          "dots": 7,
+          "length": 170.508,
+          "residual": 0.426,
+          "spacing_cv": 0.016365,
+          "metrics": {
+            "line": 0.993387,
+            "dots": 0.885374,
+            "periodic": 0.999176,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_008.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 67.401,
+      "winner_margin": Infinity,
+      "winner_score": 0.795864,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.795864
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.958762,
+          "score": 0.795864,
+          "dots": 12,
+          "length": 352.273,
+          "residual": 0.766,
+          "spacing_cv": 0.064592,
+          "metrics": {
+            "line": 0.97875,
+            "dots": 0.884596,
+            "periodic": 0.996437,
+            "color": 0.922512,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_009.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 68.606,
+      "winner_margin": Infinity,
+      "winner_score": 0.781004,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.781004
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.94647,
+          "score": 0.781004,
+          "dots": 7,
+          "length": 146.376,
+          "residual": 0.735,
+          "spacing_cv": 0.024262,
+          "metrics": {
+            "line": 0.980378,
+            "dots": 0.889294,
+            "periodic": 0.99636,
+            "color": 0.899078,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_010.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 65.148,
+      "winner_margin": Infinity,
+      "winner_score": 0.799428,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.799428
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.958099,
+          "score": 0.799428,
+          "dots": 7,
+          "length": 154.168,
+          "residual": 0.634,
+          "spacing_cv": 0.013694,
+          "metrics": {
+            "line": 0.985365,
+            "dots": 0.883816,
+            "periodic": 0.999138,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_011.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 65.843,
+      "winner_margin": Infinity,
+      "winner_score": 0.796482,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.796482
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.958192,
+          "score": 0.796482,
+          "dots": 7,
+          "length": 154.72,
+          "residual": 0.427,
+          "spacing_cv": 0.010144,
+          "metrics": {
+            "line": 0.993355,
+            "dots": 0.873305,
+            "periodic": 0.999333,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_012.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 69.733,
+      "winner_margin": Infinity,
+      "winner_score": 0.777154,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.777154
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.953003,
+          "score": 0.777154,
+          "dots": 7,
+          "length": 152.891,
+          "residual": 0.46,
+          "spacing_cv": 0.010708,
+          "metrics": {
+            "line": 0.992291,
+            "dots": 0.862343,
+            "periodic": 0.999174,
+            "color": 0.908965,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_013.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 77.456,
+      "winner_margin": Infinity,
+      "winner_score": 0.825363,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.825363
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.961902,
+          "score": 0.825363,
+          "dots": 7,
+          "length": 155.09,
+          "residual": 0.524,
+          "spacing_cv": 0.026711,
+          "metrics": {
+            "line": 0.989975,
+            "dots": 0.901072,
+            "periodic": 0.998894,
+            "color": 0.92628,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_014.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 70.667,
+      "winner_margin": Infinity,
+      "winner_score": 0.841631,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.841631
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.96209,
+          "score": 0.841631,
+          "dots": 7,
+          "length": 128.702,
+          "residual": 0.325,
+          "spacing_cv": 0.0116,
+          "metrics": {
+            "line": 0.99614,
+            "dots": 0.912789,
+            "periodic": 0.999284,
+            "color": 0.92628,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "CYAN/cyan_015.jpg",
+      "expected": "CYAN",
+      "actual": "CYAN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 59.611,
+      "winner_margin": Infinity,
+      "winner_score": 0.840317,
+      "candidate_scores": [
+        {
+          "color": "CYAN",
+          "score": 0.840317
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "CYAN",
+          "confidence": 0.957108,
+          "score": 0.840317,
+          "dots": 7,
+          "length": 124.527,
+          "residual": 0.356,
+          "spacing_cv": 0.02,
+          "metrics": {
+            "line": 0.995354,
+            "dots": 0.921602,
+            "periodic": 0.997073,
+            "color": 0.918744,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_001.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 60.886,
+      "winner_margin": Infinity,
+      "winner_score": 0.796328,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.796328
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.946395,
+          "score": 0.796328,
+          "dots": 7,
+          "length": 138.966,
+          "residual": 0.343,
+          "spacing_cv": 0.054408,
+          "metrics": {
+            "line": 0.995707,
+            "dots": 0.892927,
+            "periodic": 0.987453,
+            "color": 0.907043,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_002.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 69.777,
+      "winner_margin": Infinity,
+      "winner_score": 0.746003,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.746003
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.924625,
+          "score": 0.746003,
+          "dots": 6,
+          "length": 181.293,
+          "residual": 0.42,
+          "spacing_cv": 0.059367,
+          "metrics": {
+            "line": 0.993569,
+            "dots": 0.878236,
+            "periodic": 0.999378,
+            "color": 0.855464,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_003.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 62.128,
+      "winner_margin": Infinity,
+      "winner_score": 0.737623,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.737623
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.92483,
+          "score": 0.737623,
+          "dots": 6,
+          "length": 204.127,
+          "residual": 0.315,
+          "spacing_cv": 0.031452,
+          "metrics": {
+            "line": 0.996379,
+            "dots": 0.865539,
+            "periodic": 0.99982,
+            "color": 0.855464,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_004.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 76.282,
+      "winner_margin": Infinity,
+      "winner_score": 0.754093,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.754093
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.930329,
+          "score": 0.754093,
+          "dots": 6,
+          "length": 211.147,
+          "residual": 0.338,
+          "spacing_cv": 0.033979,
+          "metrics": {
+            "line": 0.99581,
+            "dots": 0.874934,
+            "periodic": 0.99948,
+            "color": 0.865962,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_005.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 76.502,
+      "winner_margin": Infinity,
+      "winner_score": 0.595917,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.595917
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.923083,
+          "score": 0.595917,
+          "dots": 6,
+          "length": 233.29,
+          "residual": 0.438,
+          "spacing_cv": 0.047791,
+          "metrics": {
+            "line": 0.993002,
+            "dots": 0.704294,
+            "periodic": 0.99916,
+            "color": 0.852799,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_006.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 60.171,
+      "winner_margin": Infinity,
+      "winner_score": 0.773376,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.773376
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.938415,
+          "score": 0.773376,
+          "dots": 7,
+          "length": 135.114,
+          "residual": 0.237,
+          "spacing_cv": 0.010861,
+          "metrics": {
+            "line": 0.997951,
+            "dots": 0.880017,
+            "periodic": 0.998858,
+            "color": 0.881631,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_007.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 60.271,
+      "winner_margin": Infinity,
+      "winner_score": 0.758056,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.758056
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.938208,
+          "score": 0.758056,
+          "dots": 7,
+          "length": 138.944,
+          "residual": 0.837,
+          "spacing_cv": 0.014495,
+          "metrics": {
+            "line": 0.974646,
+            "dots": 0.883602,
+            "periodic": 0.998416,
+            "color": 0.881631,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_008.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 54.912,
+      "winner_margin": Infinity,
+      "winner_score": 0.799664,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.799664
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.948298,
+          "score": 0.799664,
+          "dots": 6,
+          "length": 116.977,
+          "residual": 0.364,
+          "spacing_cv": 0.046002,
+          "metrics": {
+            "line": 0.99515,
+            "dots": 0.893571,
+            "periodic": 0.994183,
+            "color": 0.904531,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_009.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 57.413,
+      "winner_margin": Infinity,
+      "winner_score": 0.787345,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.787345
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.948185,
+          "score": 0.787345,
+          "dots": 7,
+          "length": 142.175,
+          "residual": 0.709,
+          "spacing_cv": 0.0364,
+          "metrics": {
+            "line": 0.981726,
+            "dots": 0.89205,
+            "periodic": 0.993941,
+            "color": 0.904534,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_010.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 56.462,
+      "winner_margin": Infinity,
+      "winner_score": 0.798113,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.798113
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.96164,
+          "score": 0.798113,
+          "dots": 7,
+          "length": 155.528,
+          "residual": 0.72,
+          "spacing_cv": 0.021683,
+          "metrics": {
+            "line": 0.981206,
+            "dots": 0.879587,
+            "periodic": 0.997713,
+            "color": 0.926872,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_011.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 60.754,
+      "winner_margin": Infinity,
+      "winner_score": 0.783772,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.783772
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.950542,
+          "score": 0.783772,
+          "dots": 7,
+          "length": 171.423,
+          "residual": 0.598,
+          "spacing_cv": 0.043123,
+          "metrics": {
+            "line": 0.986982,
+            "dots": 0.878896,
+            "periodic": 0.996127,
+            "color": 0.907043,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "GREEN/green_012.jpg",
+      "expected": "GREEN",
+      "actual": "GREEN",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 35.792,
+      "winner_margin": Infinity,
+      "winner_score": 0.745219,
+      "candidate_scores": [
+        {
+          "color": "GREEN",
+          "score": 0.745219
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "GREEN",
+          "confidence": 0.949985,
+          "score": 0.745219,
+          "dots": 6,
+          "length": 144.865,
+          "residual": 0.997,
+          "spacing_cv": 0.018776,
+          "metrics": {
+            "line": 0.964215,
+            "dots": 0.856399,
+            "periodic": 0.997725,
+            "color": 0.904531,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_001.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 50.399,
+      "winner_margin": Infinity,
+      "winner_score": 0.82714,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.82714
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.963964,
+          "score": 0.82714,
+          "dots": 6,
+          "length": 224.837,
+          "residual": 0.399,
+          "spacing_cv": 0.070989,
+          "metrics": {
+            "line": 0.994179,
+            "dots": 0.895351,
+            "periodic": 0.998989,
+            "color": 0.930166,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_002.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 49.916,
+      "winner_margin": Infinity,
+      "winner_score": 0.837915,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.837915
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.96653,
+          "score": 0.837915,
+          "dots": 6,
+          "length": 263.383,
+          "residual": 0.341,
+          "spacing_cv": 0.070479,
+          "metrics": {
+            "line": 0.995757,
+            "dots": 0.900775,
+            "periodic": 0.998308,
+            "color": 0.935763,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_003.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 42.891,
+      "winner_margin": Infinity,
+      "winner_score": 0.818174,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.818174
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.963589,
+          "score": 0.818174,
+          "dots": 6,
+          "length": 274.342,
+          "residual": 0.214,
+          "spacing_cv": 0.056935,
+          "metrics": {
+            "line": 0.99833,
+            "dots": 0.88265,
+            "periodic": 0.998212,
+            "color": 0.930166,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_004.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 41.031,
+      "winner_margin": Infinity,
+      "winner_score": 0.808436,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.808436
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.963224,
+          "score": 0.808436,
+          "dots": 6,
+          "length": 304.603,
+          "residual": 0.383,
+          "spacing_cv": 0.06104,
+          "metrics": {
+            "line": 0.994635,
+            "dots": 0.876047,
+            "periodic": 0.997457,
+            "color": 0.930166,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_005.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 56.034,
+      "winner_margin": Infinity,
+      "winner_score": 0.617701,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.617701
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.899292,
+          "score": 0.617701,
+          "dots": 8,
+          "length": 287.08,
+          "residual": 1.373,
+          "spacing_cv": 0.041724,
+          "metrics": {
+            "line": 0.933216,
+            "dots": 0.818454,
+            "periodic": 0.985354,
+            "color": 0.820747,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_006.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 61.617,
+      "winner_margin": Infinity,
+      "winner_score": 0.776467,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.776467
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.93711,
+          "score": 0.776467,
+          "dots": 7,
+          "length": 186.368,
+          "residual": 0.56,
+          "spacing_cv": 0.044169,
+          "metrics": {
+            "line": 0.988585,
+            "dots": 0.894392,
+            "periodic": 0.994489,
+            "color": 0.883041,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_007.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 62.854,
+      "winner_margin": Infinity,
+      "winner_score": 0.596913,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.596913
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.872939,
+          "score": 0.596913,
+          "dots": 7,
+          "length": 179.221,
+          "residual": 0.773,
+          "spacing_cv": 0.03721,
+          "metrics": {
+            "line": 0.978332,
+            "dots": 0.800677,
+            "periodic": 0.990352,
+            "color": 0.769445,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_008.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 58.912,
+      "winner_margin": Infinity,
+      "winner_score": 0.581355,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.581355
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.856167,
+          "score": 0.581355,
+          "dots": 8,
+          "length": 182.113,
+          "residual": 0.956,
+          "spacing_cv": 0.03225,
+          "metrics": {
+            "line": 0.967034,
+            "dots": 0.820131,
+            "periodic": 0.989906,
+            "color": 0.740497,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_009.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 54.548,
+      "winner_margin": Infinity,
+      "winner_score": 0.649652,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.649652
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.890467,
+          "score": 0.649652,
+          "dots": 7,
+          "length": 131.32,
+          "residual": 0.482,
+          "spacing_cv": 0.03543,
+          "metrics": {
+            "line": 0.991538,
+            "dots": 0.826296,
+            "periodic": 0.994669,
+            "color": 0.797182,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_010.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 52.837,
+      "winner_margin": Infinity,
+      "winner_score": 0.73187,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.73187
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.927164,
+          "score": 0.73187,
+          "dots": 7,
+          "length": 128.822,
+          "residual": 0.655,
+          "spacing_cv": 0.031139,
+          "metrics": {
+            "line": 0.984413,
+            "dots": 0.864855,
+            "periodic": 0.996255,
+            "color": 0.862865,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_011.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 45.599,
+      "winner_margin": Infinity,
+      "winner_score": 0.629445,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.629445
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.884556,
+          "score": 0.629445,
+          "dots": 6,
+          "length": 156.117,
+          "residual": 0.666,
+          "spacing_cv": 0.017087,
+          "metrics": {
+            "line": 0.983874,
+            "dots": 0.817651,
+            "periodic": 0.997983,
+            "color": 0.784021,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_012.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 45.33,
+      "winner_margin": Infinity,
+      "winner_score": 0.648466,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.648466
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.890603,
+          "score": 0.648466,
+          "dots": 6,
+          "length": 149.996,
+          "residual": 0.701,
+          "spacing_cv": 0.018859,
+          "metrics": {
+            "line": 0.982168,
+            "dots": 0.832403,
+            "periodic": 0.99784,
+            "color": 0.79489,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "PURPLE/purple_013.jpg",
+      "expected": "PURPLE",
+      "actual": "PURPLE",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 50.846,
+      "winner_margin": Infinity,
+      "winner_score": 0.717215,
+      "candidate_scores": [
+        {
+          "color": "PURPLE",
+          "score": 0.717215
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "PURPLE",
+          "confidence": 0.923223,
+          "score": 0.717215,
+          "dots": 7,
+          "length": 194.441,
+          "residual": 1.017,
+          "spacing_cv": 0.026345,
+          "metrics": {
+            "line": 0.962813,
+            "dots": 0.873965,
+            "periodic": 0.99855,
+            "color": 0.853579,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_001.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 52.145,
+      "winner_margin": Infinity,
+      "winner_score": 0.836266,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.836266
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.955497,
+          "score": 0.836266,
+          "dots": 7,
+          "length": 129.804,
+          "residual": 0.319,
+          "spacing_cv": 0.04029,
+          "metrics": {
+            "line": 0.996274,
+            "dots": 0.919407,
+            "periodic": 0.99513,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_002.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 52.371,
+      "winner_margin": Infinity,
+      "winner_score": 0.800851,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.800851
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.955175,
+          "score": 0.800851,
+          "dots": 8,
+          "length": 230.661,
+          "residual": 0.576,
+          "spacing_cv": 0.059335,
+          "metrics": {
+            "line": 0.987915,
+            "dots": 0.888518,
+            "periodic": 0.994461,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_003.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 54.294,
+      "winner_margin": Infinity,
+      "winner_score": 0.777946,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.777946
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.955588,
+          "score": 0.777946,
+          "dots": 7,
+          "length": 313.055,
+          "residual": 1.112,
+          "spacing_cv": 0.063219,
+          "metrics": {
+            "line": 0.9557,
+            "dots": 0.891429,
+            "periodic": 0.99532,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_004.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 63.563,
+      "winner_margin": Infinity,
+      "winner_score": 0.81244,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.81244
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.957081,
+          "score": 0.81244,
+          "dots": 7,
+          "length": 339.329,
+          "residual": 0.796,
+          "spacing_cv": 0.03754,
+          "metrics": {
+            "line": 0.977029,
+            "dots": 0.907792,
+            "periodic": 0.998433,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_005.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 63.134,
+      "winner_margin": Infinity,
+      "winner_score": 0.822627,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.822627
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.957258,
+          "score": 0.822627,
+          "dots": 7,
+          "length": 203.572,
+          "residual": 0.441,
+          "spacing_cv": 0.011098,
+          "metrics": {
+            "line": 0.992883,
+            "dots": 0.904162,
+            "periodic": 0.998803,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_006.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 60.061,
+      "winner_margin": Infinity,
+      "winner_score": 0.812635,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.812635
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.955197,
+          "score": 0.812635,
+          "dots": 7,
+          "length": 181.441,
+          "residual": 0.327,
+          "spacing_cv": 0.024987,
+          "metrics": {
+            "line": 0.996097,
+            "dots": 0.894146,
+            "periodic": 0.994505,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_007.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 54.862,
+      "winner_margin": Infinity,
+      "winner_score": 0.826393,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.826393
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.955486,
+          "score": 0.826393,
+          "dots": 7,
+          "length": 141.911,
+          "residual": 0.331,
+          "spacing_cv": 0.031307,
+          "metrics": {
+            "line": 0.995995,
+            "dots": 0.908826,
+            "periodic": 0.995108,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_008.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 53.487,
+      "winner_margin": Infinity,
+      "winner_score": 0.828853,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.828853
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.956783,
+          "score": 0.828853,
+          "dots": 7,
+          "length": 123.645,
+          "residual": 0.392,
+          "spacing_cv": 0.022378,
+          "metrics": {
+            "line": 0.994375,
+            "dots": 0.910543,
+            "periodic": 0.997811,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_009.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 52.753,
+      "winner_margin": Infinity,
+      "winner_score": 0.822136,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.822136
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.957587,
+          "score": 0.822136,
+          "dots": 7,
+          "length": 140.12,
+          "residual": 0.343,
+          "spacing_cv": 0.03283,
+          "metrics": {
+            "line": 0.995689,
+            "dots": 0.900458,
+            "periodic": 0.99949,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_010.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 51.977,
+      "winner_margin": Infinity,
+      "winner_score": 0.813024,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.813024
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.957187,
+          "score": 0.813024,
+          "dots": 7,
+          "length": 127.87,
+          "residual": 0.425,
+          "spacing_cv": 0.028803,
+          "metrics": {
+            "line": 0.993409,
+            "dots": 0.893268,
+            "periodic": 0.998654,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_011.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 55.341,
+      "winner_margin": Infinity,
+      "winner_score": 0.846683,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.846683
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.96088,
+          "score": 0.846683,
+          "dots": 8,
+          "length": 127.401,
+          "residual": 0.328,
+          "spacing_cv": 0.034703,
+          "metrics": {
+            "line": 0.996057,
+            "dots": 0.920657,
+            "periodic": 0.99768,
+            "color": 0.925438,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_012.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 49.946,
+      "winner_margin": Infinity,
+      "winner_score": 0.834695,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.834695
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.957627,
+          "score": 0.834695,
+          "dots": 6,
+          "length": 102.345,
+          "residual": 0.098,
+          "spacing_cv": 0.037701,
+          "metrics": {
+            "line": 0.99965,
+            "dots": 0.910516,
+            "periodic": 0.999572,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "image": "RED/red_013.jpg",
+      "expected": "RED",
+      "actual": "RED",
+      "passed": true,
+      "candidate_count": 1,
+      "proposal_count": 1,
+      "processing_ms": 33.114,
+      "winner_margin": Infinity,
+      "winner_score": 0.82421,
+      "candidate_scores": [
+        {
+          "color": "RED",
+          "score": 0.82421
+        }
+      ],
+      "proposals": [
+        {
+          "rank": 1,
+          "accepted": true,
+          "color": "RED",
+          "confidence": 0.956965,
+          "score": 0.82421,
+          "dots": 6,
+          "length": 129.238,
+          "residual": 0.451,
+          "spacing_cv": 0.042142,
+          "metrics": {
+            "line": 0.992567,
+            "dots": 0.906748,
+            "periodic": 0.998191,
+            "color": 0.917441,
+            "valley": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

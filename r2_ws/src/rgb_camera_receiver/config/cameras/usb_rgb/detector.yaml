@@ -1,0 +1,81 @@
+calibrated: true
+processing:
+  scale: 0.4
+colors:
+  RED:
+    hue_center: 2.46
+    hue_radius: 15.54
+    min_saturation: 150.0
+    min_value: 57.0
+  GREEN:
+    hue_center: 72.9
+    hue_radius: 22.0
+    min_saturation: 55.0
+    min_value: 40.0
+    channel_min:
+      g: 0.45
+    channel_max:
+      b: 0.42
+  CYAN:
+    hue_center: 96.86
+    hue_radius: 20.14
+    min_saturation: 66.0
+    min_value: 42.0
+    channel_min:
+      b: 0.4
+      g: 0.284
+    channel_max:
+      r: 0.312
+      g: 0.55
+      b: 0.7
+  BLUE:
+    hue_center: 111.64
+    hue_radius: 14.64
+    min_saturation: 150.0
+    min_value: 68.0
+    channel_min:
+      b: 0.5
+    channel_max:
+      g: 0.4
+  PURPLE:
+    hue_center: 150.96
+    hue_radius: 21.96
+    min_saturation: 55.0
+    min_value: 73.0
+dots:
+  min_blob_area: 1
+  max_blob_area: 300
+  max_blob_aspect: 3.5
+  min_blob_compactness: 0.05
+  dog_sigma_small: 0.8
+  dog_sigma_large: 2.6
+  min_dog_response: 5.0
+  max_points_per_color: 40
+geometry:
+  min_dots: 6
+  min_length_pixels: 40
+  line_distance_pixels: 3.5
+  max_gap_ratio: 3.2
+  max_spacing_trend_error: 0.32
+  min_coverage: 0.55
+  min_valley_contrast: 0.05
+  min_periodic_dot_quality: 0.38
+  min_periodic_color_quality: 0.45
+  continuous_min_area: 30
+  continuous_min_length: 80
+  continuous_min_aspect: 8.0
+  continuous_min_color_quality: 0.75
+  max_pair_hypotheses: 200
+  max_line_hypotheses: 5
+selection:
+  min_score: 0.04
+  winner_margin: 1.2
+pairing:
+  min_pair_score: 0.04
+  max_angle_degrees: 18.0
+  max_cross_distance_pixels: 35.0
+  min_center_distance_ratio: 0.35
+  max_center_distance_ratio: 3.0
+  min_length_ratio: 0.35
+  max_length_ratio: 2.8
+  max_pairs: 20

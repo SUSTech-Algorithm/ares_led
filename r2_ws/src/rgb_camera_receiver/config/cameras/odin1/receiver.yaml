@@ -1,0 +1,29 @@
+rgb_camera_receiver:
+  ros__parameters:
+    # Odin1 profile 只预留配置位置。当前还没有 detector.yaml，也还没有 ROS image topic
+    # 输入前端；直接启动会明确报缺少 detector，而不会误用 USB RGB 参数。
+    camera_profile: odin1
+    # 可覆盖为外部校准文件；留空时使用本 profile 自带的 detector.yaml。
+    # detector_config: /绝对路径/detector.yaml
+
+    camera_device: auto
+    camera_reject_keywords: Integrated,Chicony
+    frame_width: 1280
+    frame_height: 720
+    scan_rate_hz: 30.0
+    v4l2_controls: ""
+
+    show_preview: true
+    preview_scale: 0.5
+    processing_scale: 1.0
+
+    save_positive_images: true
+    positive_capture_dir: ~/Desktop/LED/camera_capture_positive_odin1
+    positive_save_interval_sec: 1.0
+
+    protocol_config: ""
+    output_topic: /aruco_comm/rx_id
+    confirmation_window: 7
+    confirmation_required: 5
+    protocol_winner_margin: 1.20
+    off_unlock_sec: 0.35
